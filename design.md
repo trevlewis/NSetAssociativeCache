@@ -16,10 +16,6 @@ I created an array that is type specific based on the first set of key value pai
 the cache. I instantiate the array to the correct size needed by multiplying the number of sets in the
 cache by the number of cache blocks per set that has been specified by the client.
 
-**Note:** Some of the structure and methods of this cache are taken from Guava Cache by Google. I have
-used this cache library in a project so I was familiar with how it acted and some of the methods that are
-implemented in it.
-
 **Design:**
 
 **Cache Interface:**  
